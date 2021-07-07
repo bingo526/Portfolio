@@ -4,15 +4,13 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/forrest-li.pdf";
+import pdf from "../../Assets/forrest.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
   const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
-  const [spojRank, upadteSpojRank] = useState(458);
-  const [hackerrank, upadteHackerank] = useState(874);
-  const [sem, upadateSem] = useState(0);
-  const [cgpa, upadteCgpa] = useState(0);
+  const spojRank = 458;
+  const hackerrank = 874;
 
   useEffect(() => {
     axios
@@ -20,8 +18,8 @@ function Resume() {
       .then((res) => {
         // upadteSpojRank(res.data.message[0].spojRank);
         // upadteHackerank(res.data.message[1].hackerrank);
-        upadteCgpa(res.data.message[2].cgpa);
-        upadateSem(res.data.message[3].sem);
+        // upadteCgpa(res.data.message[2].cgpa);
+        // upadateSem(res.data.message[3].sem);
       })
       .catch((err) => {
         console.log(err);
