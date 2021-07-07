@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/forrest.pdf";
+import pdf from "../../Assets/forrest-li.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -46,7 +46,6 @@ function Resume() {
                 "Built Whole UI / UX on frontend side and implemented Web trading chart feature using web3.js and React modern javascript technology",
                 "Built real-time data updates structure using Apollo client subscription technology",
                 "Integrated smart contract and MetaMask using the Web3, React, and TypeScript",
-                "Built real-time data updates structure using Apollo client subscription technology"
               ]}
             />
             <Resumecontent
