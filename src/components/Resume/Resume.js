@@ -41,7 +41,7 @@ function Resume() {
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Front-End & Web3 Developer"
-              date="2019-2020"
+              date="2019-2022"
               content={[
                 "Built Whole UI / UX on frontend side and implemented Web trading chart feature using web3.js and React modern javascript technology",
                 "Built real-time data updates structure using Apollo client subscription technology",
@@ -49,22 +49,21 @@ function Resume() {
               ]}
             />
             <Resumecontent
-              title="Front-End Developer & Solidity Developer"
-              date="2018-2019"
+              title="Solidity Developer"
+              date="2017-2019"
               content={[
-                "Non-Fungible Tokens (NFTs) on EOS and WAX blockchain using Atomic Assets and Simple Assets.",
-                "Built the bridging EVM compatible blockchain to transfer ERC20 and ERC1155 token from one blockchain to another.",
-                "Built the Card Game components and integrate the third-party APIs and Restful APIs using the React, Redux, Axios and TypeScript.",
+                "Implement a simple Automated Market Maker (x * y = k formula) exploring liquidity pool implementations (finally using Uniswap V2 TWAPs).",
+                "Working with design patterns like factories, proxies, withdrawal, and others.",
+                "Working with Chainlink oracles to intercommunicate chains through external API calls (LinkPool node integration for an IDO).",
               ]}
             />
             <Resumecontent
-              title="Solidity Developer"
-              date="2016-2018"
+              title="Full Stack Developer"
+              date="2016-2017"
               content={[
-                "Participated in developing token migration contract for moving from our old ERC20 mintable token to a new ERC20 deflationairy supply token with burning capabilities.",
-                "Explored atomic swaps between two or more Fabric networks.",
-                "Built Smart contracts on Ethereum and binance for Defi farming and stacking system using Solidity.",
-                "Wrote testing and deployment script using Truffle and Mocha for MyBit network contract SDK which is a set of contracts that implement the business logic for the network.",
+                "Non-Fungible Tokens (NFTs) on EOS and WAX blockchain using Atomic Assets and Simple Assets",
+                "Built the bridging EVM compatible blockchain to transfer ERC20 and ERC1155 token from one blockchain to another.",
+                "Built the Card Game components and integrate the third-party APIs and Restful APIs using the React, Redux, Axios and TypeScript.",
               ]}
             />
           </Col>
